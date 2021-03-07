@@ -1,0 +1,5 @@
+agent ID,weight updates in M,training time in min,highscore during training,average score during 1000 test episodes,highscore during 1000 test episodes
+201.1,21.45,622,33,8.081,31
+202.1,13.99,448,29,14.741,29
+206.1,14.49,460,41,22.666,42
+208.1,30.82,846,37,23.264,39

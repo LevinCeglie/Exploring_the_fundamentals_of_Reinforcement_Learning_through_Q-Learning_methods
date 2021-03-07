@@ -1,0 +1,25 @@
+agent_id: 108.1device: cuda 
+DQN: 
+DQN(
+  (l_first): Linear(in_features=83, out_features=128, bias=True)
+  (l_last): Linear(in_features=128, out_features=4, bias=True)
+)
+
+optimizer: 
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 5e-05
+    weight_decay: 0
+)
+
+gamma: 0.98 
+epsilon_decay & _min: 0.9998, 0.01
+statetype: 8 
+updates_per_step: 32 
+max_mem_length: 10000 
+score_mem_adding: False 
+rewards(f,c,s): 50, -50, 0 
+lr_decay: False
